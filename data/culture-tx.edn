@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "swz.dish.sishwala", :name "Sishwala", :country "SWZ", :kind :dish, :summary "Thick Swazi maize-meal porridge normally served with meat or vegetables.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Eswatini", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "swz.dish.incwancwa", :name "Incwancwa", :country "SWZ", :kind :dish, :summary "Sour Swazi porridge made of fermented cornmeal.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Eswatini", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "swz.dish.sidvudvu", :name "Sidvudvu", :country "SWZ", :kind :dish, :summary "Swazi porridge made of pumpkin mixed with cornmeal.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Eswatini", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Cuisine_of_Eswatini", :id "swz.beverage.umcombotsi", :kind :beverage, :name-local "Tjwala", :country "SWZ", :retrieved-at "2026-07-17", :summary "Traditional brewed beer in Siswati, also called tjwala.", :name "Umcombotsi", :url-provenance :wikipedia-en}
+#:culture{:id "swz.craft.grasswork", :name "Emacansi grasswork", :country "SWZ", :kind :craft, :summary "Traditional Swazi grasswork craft producing mats (emacansi, tihlantsi), brooms and baskets.", :url "https://en.wikipedia.org/wiki/Culture_of_Eswatini", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "swz.festival.incwala", :name "Incwala", :country "SWZ", :kind :festival, :summary "The main ritual of kingship in the Kingdom of Eswatini, a national month-long ceremony held around the summer solstice involving the king, priests, warriors and citizens.", :url "https://en.wikipedia.org/wiki/Incwala", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Umhlanga_(ceremony)", :id "swz.festival.umhlanga", :kind :festival, :name-local "Reed Dance", :country "SWZ", :retrieved-at "2026-07-17", :summary "Eight-day annual ceremony held at the end of August or beginning of September at Ludzidzini Royal Village in Eswatini, where tens of thousands of unmarried and childless Swazi girls and women cut reeds and dance for the Queen Mother.", :name "Umhlanga", :url-provenance :wikipedia-en}
+#:culture{:id "swz.heritage.ngwenya-mine", :name "Ngwenya Mine", :country "SWZ", :kind :heritage, :summary "Mine on Bomvu Ridge in northwestern Eswatini regarded as the world's oldest, with evidence of mining activity dating back 41,000-43,000 years; a 2008 submission to the UNESCO World Heritage list was not accepted.", :url "https://en.wikipedia.org/wiki/Ngwenya_Mine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
