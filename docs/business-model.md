@@ -4,7 +4,7 @@ Independent public-sector market-entry compliance for Eswatini.
 
 - Public Procurement Act No. 7 of 2011 (own Government Gazette text,
   downloaded directly from ESPPRA's own site and read in full — see
-  `src/marketentry/facts.cljc`) / Eswatini Public Procurement
+  `src/marketentry/facts.cljk`) / Eswatini Public Procurement
   Regulatory Agency (ESPPRA, esppra.co.sz, own text: 'officially
   established on the 27th May 2013', 'Category A public enterprise,
   administratively, reporting to the Ministry of Finance')
