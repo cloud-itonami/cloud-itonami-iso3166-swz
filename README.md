@@ -39,7 +39,7 @@ as every `cloud-itonami-iso3166-*` sibling in this fleet:
   Act/Employment Act -- both sit behind a Cloudflare bot-challenge on
   eswatinilii's individual document pages -- and the actual Regulations
   behind the Act's own s.39 Swazi-company-preference clause).
-- `src/statute/facts.cljc` -- general-law catalog: the Companies Act,
+- `src/statute/facts.cljk` -- general-law catalog: the Companies Act,
   2009; the Employment Act, 1980; and the Value Added Tax Act, 2011
   (this last one grounded in a FULL primary-text read, not just a
   listing-table title -- a stronger citation than this family's LSO/NAM
@@ -81,7 +81,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Eswatini:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
